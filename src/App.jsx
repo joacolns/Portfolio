@@ -19,8 +19,7 @@ function App() {
     }, []);
 
     const handleThemeSwitch = () => {
-        // Esto alterna el tema entre claro y oscuro
-        setTheme(theme === 'dark' ? 'light' : 'dark');
+        setTheme(prevTheme => prevTheme === 'dark' ? 'light' : 'dark');
     };
 
     useEffect(() => {
@@ -53,8 +52,6 @@ function App() {
                 <div className="max-w-5xl w-11/12 mx-auto">
                     <Intro />
                     <Portfolio />
-                    <Timeline />
-                    <Contact />
                     <Footer />
                     <PokemonWalker />
                 </div>

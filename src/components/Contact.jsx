@@ -28,7 +28,7 @@ function Contact(){
 
                     <textarea style={{ fontFamily: 'DM Sans, sans-serif' }}
                         name="message"
-                        placeholder="Message"
+                        placeholder="Mensaje"
                         rows="10"
                         className="p-2 mb-4 my-2 bg-transparent border-2 rounded-md focus-outline-none"
                     />

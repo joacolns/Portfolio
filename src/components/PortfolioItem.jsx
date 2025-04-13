@@ -1,13 +1,13 @@
 import React from 'react';
 
-function PortfolioItem({ title, imgUrl, stack, desc, link }) {
+function PortfolioItem({ title, imgUrl, stack, desc, link, iconUrl, iconUrlMac, iconUrlLinux }) {
    return (
-      <a 
-         href={link}
-         target="_blank"
-         rel="noopener noreferrer"
-         className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
-      >
+         <a 
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden hover:bg-gray-200 dark:hover:bg-gray-800"
+         >
          <img
             src={imgUrl}
             alt="portfolio" 
@@ -25,6 +25,11 @@ function PortfolioItem({ title, imgUrl, stack, desc, link }) {
           <p className='text-xs mt-2'>
             {desc}
           </p>
+          <div className="flex mt-2">
+              <img src={iconUrl} alt="Windows" className="w-5 h-5 mr-2" />
+              <img src={iconUrlMac} alt="Mac" className="w-5 h-5 mr-2" />
+              <img src={iconUrlLinux} alt="Linux" className="w-5 h-5 mr-2" />
+            </div>
          </div>
       </a>
    )
