@@ -23,11 +23,13 @@ function Intro() {
                 </a>
             </div>
             <div className="flex items-center justify-center flex-col text-center pt-7 pb-6">
-            <button style={{ fontFamily: 'DM Sans, sans-serif' }}
-                    type="button" 
-                    onClick={() => window.open('../../public/cv.pdf', '_blank')}
-                    className="text-center inline-block px-6 py-2 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-gray-700 to-gray-500 drop-shadow-md hover:stroke-white">
-                    Descargar CV
+            <button
+                style={{ fontFamily: 'DM Sans, sans-serif' }}
+                type="button"
+                onClick={() => window.open('/cv.pdf', '_blank')}
+                className="relative overflow-hidden inline-block px-8 py-3 text-white text-base font-medium rounded-md bg-gradient-to-r from-gray-800 to-gray-600 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl hover:from-violet-700 hover:to-violet-500 before:absolute before:inset-0 before:bg-white/10 before:opacity-0 hover:before:opacity-10"
+                >
+                Descargar CV
             </button>
             </div>
             <div className="flex items-center justify-center flex-col text-center pt-5 pb-2">
