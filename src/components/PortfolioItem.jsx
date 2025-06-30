@@ -1,34 +1,33 @@
-import React from "react";
+import React from 'react';
 
-function PortfolioItem({ imgUrl, title, stack, desc, iconUrl, iconUrlMac, iconUrlLinux, link }) {
-    return (
-        <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative group overflow-hidden rounded-xl shadow-lg transform transition duration-300 hover:scale-[1.02] hover:shadow-2xl"
-        >
-            {/* Imagen de fondo con zoom en hover */}
-            <img
-                src={imgUrl}
-                alt={title}
-                className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-
-            {/* Capa que aparece al hacer hover */}
-            <div className="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center text-white p-4">
-                <h3 className="text-xl font-semibold mb-2 text-center">{title}</h3>
-                <p className="text-sm mb-2 text-center">{desc}</p>
-                <div className="flex flex-wrap gap-2 justify-center text-xs font-medium">
-                    {stack.map((tech, index) => (
-                        <span key={index} className="bg-white/10 px-2 py-1 rounded">
-                            {tech}
-                        </span>
-                    ))}
-                </div>
-            </div>
-        </a>
-    );
+function PortfolioItem({ title, imgUrl, stack, desc, link }) {
+   return (
+      <a 
+         href={link}
+         target="_blank"
+         rel="noopener noreferrer"
+         className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
+      >
+         <img
+            src={imgUrl}
+            alt="portfolio" 
+            className="w-full h-36 md:h-48 object-cover cursor-pointer"
+         />
+         <div className="w-full p-4">
+            <h3 className="text-lg md:text-xl dark:text-white mb-2 md:mb-3 font-semibold ">{title}</h3>
+            <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white ">
+               {stack.map(item => (
+                  <span className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 dark:border-white rounded-md">
+                     {item}
+                  </span>
+               ))}
+            </p>
+          <p className='text-xs mt-2'>
+            {desc}
+          </p>
+         </div>
+      </a>
+   )
 }
 
 export default PortfolioItem;

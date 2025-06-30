@@ -26,7 +26,7 @@ export default[
         year: '2017',
         title: 'Práctica de desarrollo de videojuegos',
         duration: '3 Años',
-        details: 'En 2017, comencé a explorar el mundo de la creación de videojuegos, motivado por mi curiosidad sobre cómo se construyen estos sistemas interactivos. Empecé a practicar programación en C++, un lenguaje fundamental para el desarrollo de juegos por su eficiencia y control sobre los recursos del sistema. Además, me adentré en el uso de motores gráficos avanzados como Unity y Unreal Engine 4, que son herramientas esenciales para la creación de entornos visuales ricos y dinámicos, así como Clickteam Fusion 2.5, que me permitió experimentar con un enfoque más visual y menos codificado para el diseño de juegos.',
+        details: 'En 2017, comencé a explorar el mundo de la creación de videojuegos, motivado por mi curiosidad sobre cómo se construyen. Empecé a practicar programación en C++, un lenguaje fundamental para el desarrollo de juegos por su eficiencia y control sobre los recursos del sistema. Además, me adentré en el uso de motores gráficos avanzados como Unity y Unreal Engine 4, que son herramientas esenciales para la creación de entornos visuales ricos y dinámicos, así como Clickteam Fusion 2.5 y Scratch, que me permitió experimentar con un enfoque más visual y menos codificado para el diseño de juegos.',
     
     }
 ]
