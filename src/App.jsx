@@ -54,7 +54,7 @@ function App() {
                     <Portfolio />
                     <Timeline />
                     <Footer />
-                    <PokemonWalker />
+                    {/* <PokemonWalker /> */}
                 </div>
             </div>
         </>

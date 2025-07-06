@@ -4,7 +4,7 @@ function Footer(){
     return(
         <div className="py-5 text-center">
             <p className="text-sm mt-2 opacity-50" style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                &copy; {new Date().getFullYear()} Joaquín Lucas Nieto
+                Joaquín Lucas Nieto
             </p>
         </div>
     )
