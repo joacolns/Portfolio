@@ -1,5 +1,7 @@
+
+
 import React from "react";
-import pokemonGif from '/assets/gengar.gif'; // Asegúrate de tener la ruta correcta
+import pokemonGif from '/assets/gengar.gif';
 
 function Pokemon() {
   return (
@@ -8,3 +10,5 @@ function Pokemon() {
 }
 
 export default Pokemon;
+
+

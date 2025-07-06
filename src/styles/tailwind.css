@@ -27,8 +27,14 @@
     height: auto; /* Esto mantendrá la proporción de tu GIF */
   }
 
+
   a:hover {
-    background-color: #888; /* Darker shade for better contrast on hover */
+    background-color: #B2B2B2; /* Color más oscuro para mejor contraste al hacer hover en modo claro */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dark a:hover {
+    background-color: #333333; /* Color más claro para mejor contraste al hacer hover en modo oscuro */
 }
 
 @keyframes fadeIn {

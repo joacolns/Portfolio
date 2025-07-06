@@ -1,6 +1,6 @@
 # @njoaco - Portfolio FullStack Developer
 
-Bienvenido a mi portafolio personal en GitHub. Aquí encontrarás una colección cuidadosamente curada de mis proyectos personales, cada uno diseñado para demostrar habilidades específicas y creatividad utilizando HTML, CSS, Vite y React. Este portafolio es un reflejo de mi trayectoria profesional y personal, presentado en un diseño minimalista que enfatiza el contenido y la usabilidad.
+Bienvenido a mi portafolio personal en GitHub. Aquí encontrarás una colección cuidadosamente curada de mis proyectos personales, cada uno diseñado para demostrar habilidades específicas y creatividad utilizando HTML, CSS, Vite, React y hosteado con Hostinger. Este portafolio es un reflejo de mi trayectoria profesional y personal, presentado en un diseño minimalista que enfatiza el contenido y la usabilidad.
 
 ## Diseño Minimalista
 

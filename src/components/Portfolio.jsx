@@ -1,7 +1,6 @@
 import React from "react";
 import portfolioProjects from "../data/portfolioProjects";
 import PortfolioItem from "./PortfolioItem";
-import Title from "./Title";
 
 function Portfolio(){
     return(
@@ -15,6 +14,9 @@ function Portfolio(){
                         title={project.title}
                         stack={project.stack}
                         desc={project.desc}
+                        iconUrl={project.iconUrl}
+                        iconUrlMac={project.iconUrlMac}
+                        iconUrlLinux={project.iconUrlLinux}
                         link={project.link}
                     />
                 ))}
