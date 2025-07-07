@@ -9,18 +9,18 @@ import PokemonWalker from './components/Pokemon';
 function App() {
     const [theme, setTheme] = useState(null);
 
+    /*
     useEffect(() => {
-        // Esto revisa la preferencia del sistema para el tema oscuro y establece el tema correspondiente
-        //if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        //    setTheme('dark');
-        //} else {
-        //    setTheme('light');
-        //}
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(prefersDark ? 'dark' : 'light');
     }, []);
 
+
+     */
     const handleThemeSwitch = () => {
         setTheme(prevTheme => prevTheme === 'dark' ? 'light' : 'dark');
     };
+
 
     useEffect(() => {
         // Esto aplica la clase correcta al elemento raíz de la página para cambiar los colores

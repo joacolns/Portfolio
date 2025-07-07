@@ -49,7 +49,7 @@
 }
 
 .fade-in {
-  animation: fadeIn 1s ease-out forwards;
+  animation: fadeIn 0.5s;
 }
   
   
