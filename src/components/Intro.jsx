@@ -73,7 +73,7 @@ function Intro() {
                         <span className="mt-2 text-sm">Vue + Vite</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <img src="https://cdn.creazilla.com/icons/3256562/file-type-expo-icon-lg.png" alt="Vue" className="w-12 h-12" />
+                        <img src="https://images.seeklogo.com/logo-png/45/2/expo-go-app-logo-png_seeklogo-457073.png" alt="Expo" className="w-12 h-12" />
                         <span className="mt-2 text-sm">Expo</span>
                     </div>
 
