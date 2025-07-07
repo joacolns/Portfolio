@@ -9,14 +9,18 @@ import PokemonWalker from './components/Pokemon';
 function App() {
     const [theme, setTheme] = useState(null);
 
+    /*
     useEffect(() => {
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         setTheme(prefersDark ? 'dark' : 'light');
     }, []);
 
+
+     */
     const handleThemeSwitch = () => {
         setTheme(prevTheme => prevTheme === 'dark' ? 'light' : 'dark');
     };
+
 
     useEffect(() => {
         // Esto aplica la clase correcta al elemento raíz de la página para cambiar los colores

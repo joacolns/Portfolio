@@ -11,13 +11,26 @@ function Intro() {
                 Desarrollador Full Stack orientado a .NET. Apasionado por aprender, trabajar en equipo y aportar soluciones innovadoras.
             </p>
             <div className="flex justify-center gap-5">
-                <a href="https://www.linkedin.com/in/njoaco" className="bg-gray-700 p-2 rounded-md shadow-md text-white">
+                <a
+                    href="https://www.linkedin.com/in/njoaco"
+                    className="bg-gray-700 p-2 rounded-md shadow-md text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <i className="fab fa-linkedin fa-lg" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/joacolns" className="bg-gray-700 p-2 rounded-md shadow-md text-white">
+                <a
+                    href="https://github.com/joacolns"
+                    className="bg-gray-700 p-2 rounded-md shadow-md text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <i className="fab fa-github fa-lg" aria-hidden="true"></i>
                 </a>
-                <a href="mailto:joaquinlucasnieto506@gmail.com" className="bg-gray-700 p-2 rounded-md shadow-md text-white">
+                <a
+                    href="mailto:joaquinlucasnieto506@gmail.com"
+                    className="bg-gray-700 p-2 rounded-md shadow-md text-white"
+                >
                     <i className="fas fa-envelope fa-lg" aria-hidden="true"></i>
                 </a>
             </div>
