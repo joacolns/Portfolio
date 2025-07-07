@@ -5,7 +5,7 @@ import React from "react";
 function Intro() {
     return (
         <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
-            <img src="/profile.jpg" className="w-52 h-52 mb-4 rounded-xl float-in-space-pic" />
+            <img src="/profile.png" className="w-52 h-52 mb-4 rounded-xl float-in-space-pic" />
             <h1 className="text-4xl md:text-6xl mb-1 md:mb-3 font-bold float-in-space" style={{ fontFamily: 'DM Sans, sans-serif' }}>Joaquín Lucas Nieto</h1>
             <p className="text-base md:text-xl mb-3 font-medium" style={{ fontFamily: 'DM Sans, sans-serif' }}>
                 Desarrollador Full Stack orientado a .NET. Apasionado por aprender, trabajar en equipo y aportar soluciones innovadoras.
