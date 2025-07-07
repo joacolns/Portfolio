@@ -66,9 +66,14 @@ function Intro() {
 
                 </div>
             </div>
+            {/* Sección de Herramientas */}
             <div className="flex flex-col items-center justify-center pt-2 pb-6">
                 <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'DM Sans, sans-serif' }}>Herramientas</h2>
                 <div className="flex flex-wrap justify-center gap-6">
+                    <div className="flex flex-col items-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" alt="Git" className="w-12 h-12" />
+                        <span className="mt-2 text-sm">Git</span>
+                    </div>
                     <div className="flex flex-col items-center">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" alt="Swagger" className="w-12 h-12" />
                         <span className="mt-2 text-sm">Swagger</span>

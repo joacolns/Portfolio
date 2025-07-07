@@ -10,12 +10,8 @@ function App() {
     const [theme, setTheme] = useState(null);
 
     useEffect(() => {
-        // Esto revisa la preferencia del sistema para el tema oscuro y establece el tema correspondiente
-        //if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        //    setTheme('dark');
-        //} else {
-        //    setTheme('light');
-        //}
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(prefersDark ? 'dark' : 'light');
     }, []);
 
     const handleThemeSwitch = () => {
